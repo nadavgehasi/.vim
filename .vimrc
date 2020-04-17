@@ -8,7 +8,7 @@ set nofoldenable
 set foldlevel=1
 
 " Set space to fold or unfold
-nmap <Space> za
+nnoremap <Space> za
 
 " Show matching brackets
 set showmatch
@@ -66,3 +66,10 @@ colorscheme gruvbox
 " Auto check for the vim flake plugin
 " autocmd BufWritePost *.py call flake8#Flake8()
 
+" Jupyter mapping
+nnoremap <C-j><c-r> :JupyterRunFile<CR>
+nnoremap <C-j><C-p> :JupyterConnect<CR>
+nnoremap <C-j><C-x> :JupyterSendCell<CR>
+nnoremap <C-j><C-e> :JupyterSendRange<CR>
+nnoremap <C-j><C-u> :JupyterUpdateShell<CR>
+nnoremap <C-j><C-b> :PythonSetBreak<CR>
