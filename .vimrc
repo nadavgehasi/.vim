@@ -73,3 +73,14 @@ nnoremap <C-j><C-x> :JupyterSendCell<CR>
 nnoremap <C-j><C-e> :JupyterSendRange<CR>
 nnoremap <C-j><C-u> :JupyterUpdateShell<CR>
 nnoremap <C-j><C-b> :PythonSetBreak<CR>
+
+
+
+
+
+
+" nerdtree plugin  
+" call pathogen#infect()
+" syntax on
+" filetype plugin indent on
+
