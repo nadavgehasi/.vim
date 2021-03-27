@@ -28,7 +28,6 @@ if exists('+colorcolumn')
 endif
 
 set bg=dark
-imap ee <Esc> 
 set relativenumber
 filetype plugin indent on
 
